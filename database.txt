@@ -1,4 +1,4 @@
-user
+user — пользователи
 
 - id INT NOT NULL AUTO_INCREMENT
 - reg_time DATETIME NOT NULL
@@ -8,6 +8,6 @@ user
 message
 
 - id INT NOT NULL AUTO_INCREMENT
-- uid INT NOT NULL REFERENCES user(id)
-- timestamp DATETIME NOT NULL
-- text VARCHAR(255) NOT NULL
+- user_id INT NOT NULL
+- time DATETIME NOT NULL
+- message TEXT NOT NULL
